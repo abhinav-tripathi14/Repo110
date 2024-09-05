@@ -27,7 +27,7 @@ data "tfe_project" "colibri" {
 resource "tfe_workspace" "ws_workspace" {
   #   for_each     = local.lz_subscriptions_ws
 
-  name         = "Repo15" # each.value.ws_name
+  name         = "testwscreation" # each.value.ws_name
   organization = local.tfc_org_name
   description  = "rldatix" #each.value.ws_description
 
